@@ -11,4 +11,10 @@ Proyecto de practica en diseño con css puro y Html paso a paso
 🔋🔋🔋	Estructura hecha con etiquetas de h1, h2, h3 para los titulos y p para el parrafo 
 
 
+![html2](https://user-images.githubusercontent.com/82051708/140627344-fa2cdae5-16d4-445d-94db-ad3af2d52fac.png)
+
+
+🔋🔋🔋En la segunda imagen podemos observar que se agregaron iconos, se creo el formulario e internamente en el codigo se dividio el codigo 
+en header, main y footer, se agregaron selects que por regla van cuando el elemento hijo proximo es un h1, h2, ect.
+
 
