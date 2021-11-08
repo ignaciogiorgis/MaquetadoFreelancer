@@ -15,6 +15,6 @@ Proyecto de practica en diseño con css puro y Html paso a paso
 
 
 🔋🔋🔋En la segunda imagen podemos observar que se agregaron iconos, se creo el formulario e internamente en el codigo se dividio el codigo 
-en header, main y footer, se agregaron selects que por regla van cuando el elemento hijo proximo es un h1, h2, ect. Por ultimo se agrego un nav jusnto con alguno botones.
+en header, main y footer, se agregaron selects que por regla van cuando el elemento hijo proximo es un h1, h2, ect. Por ultimo se agrego un nav junto con alguno botones.
 
 
