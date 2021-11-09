@@ -23,3 +23,9 @@ La especificidad es la manera mediante la cual los navegadores deciden qué valo
 
 
 ___________________________________________________________________________________________________________________________________________________________________________________
+
+
+🔋🔋🔋 La imagen muestra como quedo el nav terminado, se implemento Flex box para acomodar los enlaces y tienen un hover para darle efecto cuando se coloca el puntero encima.
+
+
+![nav](https://user-images.githubusercontent.com/82051708/140859216-52b733ce-e5e5-4df5-bacd-580a3e02df46.png)
