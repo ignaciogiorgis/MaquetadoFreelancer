@@ -16,5 +16,10 @@ Proyecto de practica en diseño con css puro y Html paso a paso
 
 🔋🔋🔋En la segunda imagen podemos observar que se agregaron iconos, se creo el formulario e internamente en el codigo se dividio el codigo 
 en header, main y footer, se agregaron selects que por regla van cuando el elemento hijo proximo es un h1, h2, ect. Por ultimo se agrego un nav junto con alguno botones.
+___________________________________________________________________________________________________________________________________________________________________________________
+
+🖥️🖥️🖥️ Especificidad en css
+La especificidad es la manera mediante la cual los navegadores deciden qué valores de una propiedad CSS son más relevantes para un elemento y, por lo tanto, serán aplicados. La especificidad está basada en las reglas de coincidencia que están compuestas por diferentes tipos de selectores CSS.
 
 
+___________________________________________________________________________________________________________________________________________________________________________________
