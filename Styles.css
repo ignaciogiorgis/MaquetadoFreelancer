@@ -8,6 +8,13 @@
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -15,9 +22,20 @@ body {
     font-family: 'Krub', sans-serif;
 }
 
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
 .titulo {
     text-align: center;
-    font-size: 3.8rem;
 }
 
 .titulo span {
@@ -25,7 +43,7 @@ body {
 }
 
 .contenedor {
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
@@ -35,7 +53,15 @@ body {
 
 .Navegacion-principal {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width :768px) {
+    .Navegacion-principal {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
 
 .Navegacion-principal a {
@@ -49,4 +75,31 @@ body {
 .Navegacion-principal a:hover {
     background-color: var(--primario);
     color: var(--oscuro);
+}
+
+.hero {
+    background-image: url(teclado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding: 25px;
+    position: relative;
+}
+
+.contenido-hero {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.11);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-hero p,
+.contenido-hero h2 {
+    color: var(--blanco);
 }
