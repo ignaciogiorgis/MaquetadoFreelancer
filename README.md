@@ -44,4 +44,11 @@ pero aveces cuando tenemos que acomodar espacialmente nuestros elementos es mas 
 
 ![grid](https://user-images.githubusercontent.com/82051708/142794137-59fa406d-600b-456b-b2ac-a3a02205db6e.png)
 
+Proyecto terminado 
+
+Deploy
+
+
+https://maquetadofreelancer.netlify.app/
+
 
