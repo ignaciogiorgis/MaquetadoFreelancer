@@ -29,3 +29,11 @@ ________________________________________________________________________________
 
 
 ![nav](https://user-images.githubusercontent.com/82051708/140859216-52b733ce-e5e5-4df5-bacd-580a3e02df46.png)
+
+🔋🔋🔋 El proximo avance del proyecto consta del Header en donde se coloco un fonfo desde css utilizando:
+      - background-image: url(Ubicacion de la foto);
+      -se aplico una leve capa de color blanco en el fondo con position relative enla caja padre y en el hijo se aplico position absolute, mediente coordenadas, top, left right y bottom se cubrio todo el espacio.
+      -utilizando nuevamente flexbox se centro con horizontalmente como verticalmente el contenido del fondo
+
+![header](https://user-images.githubusercontent.com/82051708/141042435-744d4f18-4aa8-45f1-ba7c-5f8ff30b2e9b.png)
+
