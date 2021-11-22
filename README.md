@@ -37,3 +37,11 @@ ________________________________________________________________________________
 
 ![header](https://user-images.githubusercontent.com/82051708/141042435-744d4f18-4aa8-45f1-ba7c-5f8ff30b2e9b.png)
 
+
+🔋🔋🔋Utilizando display: grid se acomodaron en tres columnas diferentes, separandolas un poco con la propiedad de column-gap, desde ya que se podria haber realizado con flex
+pero aveces cuando tenemos que acomodar espacialmente nuestros elementos es mas conveniente flex, cuando tenemos que definir el layout de nuestra pagina en general posiblemente grid sea una mejor opcion.
+
+
+![grid](https://user-images.githubusercontent.com/82051708/142794137-59fa406d-600b-456b-b2ac-a3a02205db6e.png)
+
+
