@@ -1,3 +1,5 @@
+/*Globales*/
+
 :root {
     --blanco: #ffffff;
     --oscuro: #212121;
@@ -20,6 +22,7 @@ html {
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top , #efe9f3 0%, var(--blanco) 100% );
 }
 
 h1 {
@@ -45,6 +48,34 @@ h3 {
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
+}
+
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+
+@media(min-width:480px){
+    .boton{
+        width: auto;
+    }
+}
+.sombra{
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(110,100,100,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(110,100,100,1);
+    box-shadow: 0px 5px 5px 0px rgba(110,100,100,1);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 .nav-bg {
@@ -84,6 +115,7 @@ h3 {
     height: 350px;
     padding: 25px;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero {
@@ -102,4 +134,9 @@ h3 {
 .contenido-hero p,
 .contenido-hero h2 {
     color: var(--blanco);
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
